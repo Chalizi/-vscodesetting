@@ -1,0 +1,45 @@
+{
+  "files.autoSave": "onFocusChange",
+  "emmet.triggerExpansionOnTab": true,
+  "emmet.variables": {
+    "lang": "zh-CN",
+    "charset": "UTF-8"
+  },
+  "files.associations": {
+    "*.js": "javascript"
+  },
+  "editor.detectIndentation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": 0,
+  "explorer.confirmDelete": false,
+  "editor.formatOnType": true,
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "semi": false,
+      "singleQuote": true
+    }
+  },
+  "vetur.format.defaultFormatter.js": "vscode-typescript",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "html",
+    "vue",
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "editor.tabSize": 2,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "numso.prettier-standard-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true //在方括号之间插入空格
+}
